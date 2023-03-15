@@ -11,13 +11,13 @@ public class QuartoExercicio {
 		float n1,n2,n3,n4,Calc;
 		
 		System.out.println("\nInsira o primeira valor: ");
-		n1= (float) ler.nextDouble();
+		n1= ler.nextFloat();
 		System.out.println("\nInsira o Segunda valor: ");
-		n2= (float) ler.nextDouble();
+		n2= ler.nextFloat();
 		System.out.println("\nInsira o Terceira valor: ");
-		n3= (float) ler.nextDouble();
+		n3= ler.nextFloat();
 		System.out.println("\nInsira o Quarto valor: ");
-		n4= (float) ler.nextDouble();
+		n4= ler.nextFloat();
 		
 		Calc = (n1 * n2)-(n3 * n4);
 		
