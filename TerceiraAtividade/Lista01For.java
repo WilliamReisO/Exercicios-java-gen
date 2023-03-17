@@ -23,11 +23,12 @@ public class Lista01For {
 			if((x % 3 == 0) && (x % 5 == 0 && (x !=0))) {
 				
 				System.out.println(x+" é múltiplo de 3 e 5");
-			}}
+			}
+		}
 			if(N1 >= N2 ){
 				System.out.println("\nIntervalo inválido!");
-				leitura.nextInt();}
-			
+				leitura.nextInt();
+			}
 			
 			
 					
