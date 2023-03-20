@@ -14,42 +14,16 @@ public class ForExer2 {
 			
 		int Number,Epar = 0,Eimpar = 0,x;
 		
-		System.out.println("\nDigite o 1° número:");
-		Number = ler.nextInt();
 		
-		System.out.println("\nDigite o 2° número");
-		Number = ler.nextInt();
+		for( x = 0;x<=9; Number++) {
 			
-		System.out.println("\nDigite o 3° número");
+		System.out.println("\nDigite o "+(x+1)+"°número:");
 		Number = ler.nextInt();
 		
-		System.out.println("\nDigite o 4° número");
-		Number = ler.nextInt();
-		
-		System.out.println("\nDigite o 5° número");
-		Number = ler.nextInt();
-		
-		System.out.println("\nDigite o 6° número");
-		Number = ler.nextInt();
-		
-		System.out.println("\nDigite o 7° número");
-		Number = ler.nextInt();
-		
-		System.out.println("\nDigite o 8° número");
-		Number = ler.nextInt();
-		
-		System.out.println("\nDigite o 9° número");
-		Number = ler.nextInt();
-		
-		System.out.println("\nDigite o 10° número");
-		Number = ler.nextInt();
-		
-		for( x = 1;x<=10; Number++) {
-			
 			if(Number % 2 == 0) {
 				Epar++;
 		
-			}else { 
+			}else if(Number % 2 == 1){ 
 				Eimpar++;
 		    }
 		
